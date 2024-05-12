@@ -6,4 +6,6 @@ import com.example.springbootdemo.entity.LoginUser;
 import java.util.List;
 
 public interface LoginUserService extends IService<LoginUser> {
+
+    public LoginUser getByUserName(String userName);
 }
